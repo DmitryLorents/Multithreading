@@ -16,6 +16,8 @@
 		0A04CA502BA8C9CF00DDFC63 /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA4F2BA8C9CF00DDFC63 /* ThreadViewController.swift */; };
 		0A04CA522BA8D34300DDFC63 /* Day1-Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA512BA8D34300DDFC63 /* Day1-Task1.swift */; };
 		0A04CA572BA8D4E700DDFC63 /* Day1-Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA562BA8D4E700DDFC63 /* Day1-Task2.swift */; };
+		0A04CA592BA9748500DDFC63 /* Day2-Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA582BA9748500DDFC63 /* Day2-Task1.swift */; };
+		0A04CA5B2BA9797300DDFC63 /* Day2-Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA5A2BA9797300DDFC63 /* Day2-Task2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0A04CA4F2BA8C9CF00DDFC63 /* ThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewController.swift; sourceTree = "<group>"; };
 		0A04CA512BA8D34300DDFC63 /* Day1-Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-Task1.swift"; sourceTree = "<group>"; };
 		0A04CA562BA8D4E700DDFC63 /* Day1-Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-Task2.swift"; sourceTree = "<group>"; };
+		0A04CA582BA9748500DDFC63 /* Day2-Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day2-Task1.swift"; sourceTree = "<group>"; };
+		0A04CA5A2BA9797300DDFC63 /* Day2-Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day2-Task2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				0A04CA512BA8D34300DDFC63 /* Day1-Task1.swift */,
 				0A04CA562BA8D4E700DDFC63 /* Day1-Task2.swift */,
+				0A04CA582BA9748500DDFC63 /* Day2-Task1.swift */,
+				0A04CA5A2BA9797300DDFC63 /* Day2-Task2.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 				0A04CA402BA8A46B00DDFC63 /* ViewController.swift in Sources */,
 				0A04CA3C2BA8A46B00DDFC63 /* AppDelegate.swift in Sources */,
 				0A04CA3E2BA8A46B00DDFC63 /* SceneDelegate.swift in Sources */,
+				0A04CA5B2BA9797300DDFC63 /* Day2-Task2.swift in Sources */,
 				0A04CA522BA8D34300DDFC63 /* Day1-Task1.swift in Sources */,
+				0A04CA592BA9748500DDFC63 /* Day2-Task1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
