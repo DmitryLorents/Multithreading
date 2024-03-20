@@ -14,6 +14,8 @@ class Day2_Task1: UIViewController {
         
         // Создаем и запускаем поток
         let infinityThread = InfinityLoop()
+        let lock = NSLock()
+        var threadConter: Int
         infinityThread.start()
         print("Is executing: ", infinityThread.isExecuting)
         
@@ -21,23 +23,32 @@ class Day2_Task1: UIViewController {
         sleep(2)
         // Отменяем тут
         while !infinityThread.isFinished {
-            if infinityThread.counter > 4 {
+            lock.lock()
+            threadConter = infinityThread.counter
+            lock.unlock()
+            if threadConter > 4 {
                 infinityThread.cancel()
             } else {
-                sleep(1)
+                sleep(UInt32(infinityThread.timeInterval))
             }
         }
         print("Is finished: ", infinityThread.isFinished)
     }
 }
     class InfinityLoop: Thread {
+        let lock = NSLock()
         var counter = 0
+        let maxCountValue = 5
+        let timeInterval = 1.0
+        
         
         override func main() {
             while counter < 30 && !isCancelled {
+                lock.lock()
                 counter += 1
                 print(counter)
-                InfinityLoop.sleep(forTimeInterval: 1)
+                lock.unlock()
+                InfinityLoop.sleep(forTimeInterval: timeInterval)
             }
         }
     }
