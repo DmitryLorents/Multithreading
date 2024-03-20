@@ -6,7 +6,7 @@ class ViewController: UIViewController {
               print(2)
               DispatchQueue.main.async {
                       print(3)
-                      DispatchQueue.main.sync {
+                      DispatchQueue.main.async {
                             print(5)
                       }
                print(4)
