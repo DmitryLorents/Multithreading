@@ -12,26 +12,19 @@ class Task1V2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .yellow
-        var phrasesService = PhrasesService()
-            Task {
-                print("Start")
-               for i in 0..<10 {
-                    await phrasesService.addPhrase("Phrase \(i)")
-                }
+        let phrasesService = PhrasesService()
+        DispatchQueue.global().async {
+            for i in 0..<10 {
+                phrasesService.addPhrase("Phrase \(i)")
             }
-        
-        // Выводим результат
-        Task {
-            // Даем потокам время на завершение работы
-            try await Task.sleep(nanoseconds: 1_000_000_000)
-            print(await phrasesService.phrases)
         }
+        // Выводим результат
     }
     
     actor PhrasesService {
         var phrases: [String] = []
         
-        func addPhrase(_ phrase: String) async {
+        func addPhrase(_ phrase: String)  {
             phrases.append(phrase)
         }
     }
