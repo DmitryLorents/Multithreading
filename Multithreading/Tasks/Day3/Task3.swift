@@ -14,10 +14,11 @@ class Task3: UIViewController {
         let serialQueue = DispatchQueue(label: "com.example.myQueue")
 
         serialQueue.async {
-           serialQueue.sync {
+           serialQueue.async {
                print("This will never be printed.")
            }
         }
     }
     
 }
+// Здесь наблюдается deadlock потому что последовательная очередь сама на себе вызывает метод sync
