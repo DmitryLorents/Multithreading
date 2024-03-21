@@ -19,6 +19,8 @@
 		0A7FD5B92BAB4BFA00482504 /* Day1-Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5B22BAB4BFA00482504 /* Day1-Task1.swift */; };
 		0A7FD5BA2BAB4BFA00482504 /* Day2-Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5B32BAB4BFA00482504 /* Day2-Task4.swift */; };
 		0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */; };
+		0A7FD5E02BAC496600482504 /* Task1V1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5DF2BAC496600482504 /* Task1V1.swift */; };
+		0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5E32BAC4BC000482504 /* Task1V2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		0A7FD5B22BAB4BFA00482504 /* Day1-Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day1-Task1.swift"; sourceTree = "<group>"; };
 		0A7FD5B32BAB4BFA00482504 /* Day2-Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day2-Task4.swift"; sourceTree = "<group>"; };
 		0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day2-Task2.swift"; sourceTree = "<group>"; };
+		0A7FD5DF2BAC496600482504 /* Task1V1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1V1.swift; sourceTree = "<group>"; };
+		0A7FD5E32BAC4BC000482504 /* Task1V2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1V2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +86,41 @@
 		0A7FD5AD2BAB4BF900482504 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				0A7FD5DE2BAC495100482504 /* Day3 */,
+				0A7FD5E12BAC499700482504 /* Day1 */,
+				0A7FD5E22BAC49A100482504 /* Day2 */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		0A7FD5DE2BAC495100482504 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				0A7FD5DF2BAC496600482504 /* Task1V1.swift */,
+				0A7FD5E32BAC4BC000482504 /* Task1V2.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		0A7FD5E12BAC499700482504 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
 				0A7FD5AE2BAB4BF900482504 /* Day1-Task2.swift */,
+				0A7FD5B22BAB4BFA00482504 /* Day1-Task1.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		0A7FD5E22BAC49A100482504 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
 				0A7FD5AF2BAB4BF900482504 /* Day2-Task3.swift */,
 				0A7FD5B02BAB4BFA00482504 /* Day2-Task1.swift */,
 				0A7FD5B12BAB4BFA00482504 /* Day2-Task6.swift */,
-				0A7FD5B22BAB4BFA00482504 /* Day1-Task1.swift */,
 				0A7FD5B32BAB4BFA00482504 /* Day2-Task4.swift */,
 				0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */,
 			);
-			path = Tasks;
+			path = Day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +198,12 @@
 				0A7FD5B52BAB4BFA00482504 /* Day1-Task2.swift in Sources */,
 				0A7FD5B72BAB4BFA00482504 /* Day2-Task1.swift in Sources */,
 				0A7FD5B92BAB4BFA00482504 /* Day1-Task1.swift in Sources */,
+				0A7FD5E02BAC496600482504 /* Task1V1.swift in Sources */,
 				0A7FD5B82BAB4BFA00482504 /* Day2-Task6.swift in Sources */,
 				0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */,
 				0A04CA3C2BA8A46B00DDFC63 /* AppDelegate.swift in Sources */,
 				0A7FD5BA2BAB4BFA00482504 /* Day2-Task4.swift in Sources */,
+				0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */,
 				0A7FD5AC2BAB4BCD00482504 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
