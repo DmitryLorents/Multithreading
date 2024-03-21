@@ -21,6 +21,7 @@
 		0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */; };
 		0A7FD5E02BAC496600482504 /* Task1V1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5DF2BAC496600482504 /* Task1V1.swift */; };
 		0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5E32BAC4BC000482504 /* Task1V2.swift */; };
+		0A7FD5E62BAC5C5600482504 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5E52BAC5C5600482504 /* Task2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day2-Task2.swift"; sourceTree = "<group>"; };
 		0A7FD5DF2BAC496600482504 /* Task1V1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1V1.swift; sourceTree = "<group>"; };
 		0A7FD5E32BAC4BC000482504 /* Task1V2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1V2.swift; sourceTree = "<group>"; };
+		0A7FD5E52BAC5C5600482504 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				0A7FD5DF2BAC496600482504 /* Task1V1.swift */,
 				0A7FD5E32BAC4BC000482504 /* Task1V2.swift */,
+				0A7FD5E52BAC5C5600482504 /* Task2.swift */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				0A7FD5B62BAB4BFA00482504 /* Day2-Task3.swift in Sources */,
 				0A7FD5B52BAB4BFA00482504 /* Day1-Task2.swift in Sources */,
 				0A7FD5B72BAB4BFA00482504 /* Day2-Task1.swift in Sources */,
+				0A7FD5E62BAC5C5600482504 /* Task2.swift in Sources */,
 				0A7FD5B92BAB4BFA00482504 /* Day1-Task1.swift in Sources */,
 				0A7FD5E02BAC496600482504 /* Task1V1.swift in Sources */,
 				0A7FD5B82BAB4BFA00482504 /* Day2-Task6.swift in Sources */,
