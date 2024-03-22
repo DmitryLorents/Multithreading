@@ -32,6 +32,7 @@
 		0A7FD5F72BAD706300482504 /* Task3Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F62BAD706300482504 /* Task3Day4.swift */; };
 		0A7FD5F92BAD73DF00482504 /* Task4Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F82BAD73DF00482504 /* Task4Day4.swift */; };
 		0AD4F0212BAD7BC400D3BA34 /* Task4v2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0202BAD7BC400D3BA34 /* Task4v2Day4.swift */; };
+		0AD4F0232BADCBC600D3BA34 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		0A7FD5F62BAD706300482504 /* Task3Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Day4.swift; sourceTree = "<group>"; };
 		0A7FD5F82BAD73DF00482504 /* Task4Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4Day4.swift; sourceTree = "<group>"; };
 		0AD4F0202BAD7BC400D3BA34 /* Task4v2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4v2Day4.swift; sourceTree = "<group>"; };
+		0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				0A7FD5EB2BAC6CA900482504 /* Task5.swift */,
 				0A7FD5ED2BAC718600482504 /* Task6.swift */,
 				0A7FD5EF2BACAAEC00482504 /* Task7.swift */,
+				0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -143,8 +146,8 @@
 		0A7FD5E22BAC49A100482504 /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
-				0A7FD5AF2BAB4BF900482504 /* Day2-Task3.swift */,
 				0A7FD5B02BAB4BFA00482504 /* Day2-Task1.swift */,
+				0A7FD5AF2BAB4BF900482504 /* Day2-Task3.swift */,
 				0A7FD5B12BAB4BFA00482504 /* Day2-Task6.swift */,
 				0A7FD5B32BAB4BFA00482504 /* Day2-Task4.swift */,
 				0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */,
@@ -237,6 +240,7 @@
 			files = (
 				0A7FD5B62BAB4BFA00482504 /* Day2-Task3.swift in Sources */,
 				0A7FD5B52BAB4BFA00482504 /* Day1-Task2.swift in Sources */,
+				0AD4F0232BADCBC600D3BA34 /* TestViewController.swift in Sources */,
 				0A7FD5B72BAB4BFA00482504 /* Day2-Task1.swift in Sources */,
 				0A7FD5EC2BAC6CA900482504 /* Task5.swift in Sources */,
 				0A7FD5E62BAC5C5600482504 /* Task2.swift in Sources */,
