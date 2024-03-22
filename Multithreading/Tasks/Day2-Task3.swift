@@ -18,12 +18,9 @@ class Day2_Task3: UIViewController {
         }
         
         func updateName() {
-            let lock = NSLock()
             DispatchQueue.global().async {
                 self.lockQueue.async {
-                    lock.lock()
                         self.name = "I love RM" // Перезаписываем имя в другом потоке
-                    lock.unlock()
                 }
 
                 print(Thread.current)
