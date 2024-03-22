@@ -27,6 +27,8 @@
 		0A7FD5EC2BAC6CA900482504 /* Task5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5EB2BAC6CA900482504 /* Task5.swift */; };
 		0A7FD5EE2BAC718600482504 /* Task6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5ED2BAC718600482504 /* Task6.swift */; };
 		0A7FD5F02BACAAEC00482504 /* Task7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5EF2BACAAEC00482504 /* Task7.swift */; };
+		0A7FD5F32BAD566E00482504 /* Task1Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F22BAD566E00482504 /* Task1Day4.swift */; };
+		0A7FD5F52BAD6D0C00482504 /* Task2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		0A7FD5EB2BAC6CA900482504 /* Task5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5.swift; sourceTree = "<group>"; };
 		0A7FD5ED2BAC718600482504 /* Task6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task6.swift; sourceTree = "<group>"; };
 		0A7FD5EF2BACAAEC00482504 /* Task7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task7.swift; sourceTree = "<group>"; };
+		0A7FD5F22BAD566E00482504 /* Task1Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Day4.swift; sourceTree = "<group>"; };
+		0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Day4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		0A7FD5AD2BAB4BF900482504 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				0A7FD5F12BAD564500482504 /* Day4 */,
 				0A7FD5DE2BAC495100482504 /* Day3 */,
 				0A7FD5E12BAC499700482504 /* Day1 */,
 				0A7FD5E22BAC49A100482504 /* Day2 */,
@@ -139,6 +144,15 @@
 				0A7FD5B42BAB4BFA00482504 /* Day2-Task2.swift */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		0A7FD5F12BAD564500482504 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				0A7FD5F22BAD566E00482504 /* Task1Day4.swift */,
+				0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */,
+			);
+			path = Day4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,11 +236,13 @@
 				0A7FD5B82BAB4BFA00482504 /* Day2-Task6.swift in Sources */,
 				0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */,
 				0A04CA3C2BA8A46B00DDFC63 /* AppDelegate.swift in Sources */,
+				0A7FD5F32BAD566E00482504 /* Task1Day4.swift in Sources */,
 				0A7FD5BA2BAB4BFA00482504 /* Day2-Task4.swift in Sources */,
 				0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */,
 				0A7FD5EA2BAC6BB800482504 /* Task4.swift in Sources */,
 				0A7FD5E82BAC617400482504 /* Task3.swift in Sources */,
 				0A7FD5AC2BAB4BCD00482504 /* SceneDelegate.swift in Sources */,
+				0A7FD5F52BAD6D0C00482504 /* Task2Day4.swift in Sources */,
 				0A7FD5EE2BAC718600482504 /* Task6.swift in Sources */,
 				0A7FD5F02BACAAEC00482504 /* Task7.swift in Sources */,
 			);
