@@ -29,6 +29,7 @@
 		0A7FD5F02BACAAEC00482504 /* Task7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5EF2BACAAEC00482504 /* Task7.swift */; };
 		0A7FD5F32BAD566E00482504 /* Task1Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F22BAD566E00482504 /* Task1Day4.swift */; };
 		0A7FD5F52BAD6D0C00482504 /* Task2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */; };
+		0A7FD5F72BAD706300482504 /* Task3Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F62BAD706300482504 /* Task3Day4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		0A7FD5EF2BACAAEC00482504 /* Task7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task7.swift; sourceTree = "<group>"; };
 		0A7FD5F22BAD566E00482504 /* Task1Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Day4.swift; sourceTree = "<group>"; };
 		0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Day4.swift; sourceTree = "<group>"; };
+		0A7FD5F62BAD706300482504 /* Task3Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Day4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				0A7FD5F22BAD566E00482504 /* Task1Day4.swift */,
 				0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */,
+				0A7FD5F62BAD706300482504 /* Task3Day4.swift */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				0A7FD5B82BAB4BFA00482504 /* Day2-Task6.swift in Sources */,
 				0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */,
 				0A04CA3C2BA8A46B00DDFC63 /* AppDelegate.swift in Sources */,
+				0A7FD5F72BAD706300482504 /* Task3Day4.swift in Sources */,
 				0A7FD5F32BAD566E00482504 /* Task1Day4.swift in Sources */,
 				0A7FD5BA2BAB4BFA00482504 /* Day2-Task4.swift in Sources */,
 				0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */,
