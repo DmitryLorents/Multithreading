@@ -18,6 +18,7 @@ class Task7Day5: UIViewController {
     }
     
     func printMessage() async {
+<<<<<<< HEAD
         let messages = ["Hello", "My", "Road", "Map", "Group"]
         let string = await withTaskGroup(of: String.self) { group -> String in
             // тут добавляем строки в группу
@@ -25,6 +26,24 @@ class Task7Day5: UIViewController {
                 group.addTask {
                     message
                 }
+=======
+        let string = await withTaskGroup(of: String.self) { group -> String in
+            // тут добавляем строки в группу
+            group.addTask {
+                "Hello"
+            }
+            group.addTask {
+                "My"
+            }
+            group.addTask {
+                "Road"
+            }
+            group.addTask {
+                "Map"
+            }
+            group.addTask {
+                "Group"
+>>>>>>> 639f919a4a4f463dd228284e1309215b381d662b
             }
             var collected = [String]()
             
