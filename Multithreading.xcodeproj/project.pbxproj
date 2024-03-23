@@ -37,6 +37,7 @@
 		0AD4F02A2BAE28A300D3BA34 /* Task2Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0292BAE28A300D3BA34 /* Task2Day5.swift */; };
 		0AD4F02C2BAF30E800D3BA34 /* Task3Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F02B2BAF30E800D3BA34 /* Task3Day5.swift */; };
 		0AD4F02E2BAF4DB800D3BA34 /* Task4Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F02D2BAF4DB800D3BA34 /* Task4Day5.swift */; };
+		0AD4F0302BAF4FE200D3BA34 /* Task5Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F02F2BAF4FE200D3BA34 /* Task5Day5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		0AD4F0292BAE28A300D3BA34 /* Task2Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Day5.swift; sourceTree = "<group>"; };
 		0AD4F02B2BAF30E800D3BA34 /* Task3Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Day5.swift; sourceTree = "<group>"; };
 		0AD4F02D2BAF4DB800D3BA34 /* Task4Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4Day5.swift; sourceTree = "<group>"; };
+		0AD4F02F2BAF4FE200D3BA34 /* Task5Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5Day5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				0AD4F0292BAE28A300D3BA34 /* Task2Day5.swift */,
 				0AD4F02B2BAF30E800D3BA34 /* Task3Day5.swift */,
 				0AD4F02D2BAF4DB800D3BA34 /* Task4Day5.swift */,
+				0AD4F02F2BAF4FE200D3BA34 /* Task5Day5.swift */,
 			);
 			path = Day5;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				0A7FD5E02BAC496600482504 /* Task1V1.swift in Sources */,
 				0A7FD5B82BAB4BFA00482504 /* Day2-Task6.swift in Sources */,
 				0AD4F02C2BAF30E800D3BA34 /* Task3Day5.swift in Sources */,
+				0AD4F0302BAF4FE200D3BA34 /* Task5Day5.swift in Sources */,
 				0A7FD5BB2BAB4BFA00482504 /* Day2-Task2.swift in Sources */,
 				0A04CA3C2BA8A46B00DDFC63 /* AppDelegate.swift in Sources */,
 				0A7FD5F72BAD706300482504 /* Task3Day4.swift in Sources */,
