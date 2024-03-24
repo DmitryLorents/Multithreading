@@ -34,3 +34,5 @@ class Task4Optional: UIViewController {
         }
     }
 }
+// Здесь случается priority inversion
+// Для исключения можно увеличить счетчик семафора до 2
