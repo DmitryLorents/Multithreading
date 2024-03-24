@@ -31,8 +31,9 @@
 		0A7FD5F52BAD6D0C00482504 /* Task2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */; };
 		0A7FD5F72BAD706300482504 /* Task3Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F62BAD706300482504 /* Task3Day4.swift */; };
 		0A7FD5F92BAD73DF00482504 /* Task4Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7FD5F82BAD73DF00482504 /* Task4Day4.swift */; };
+		0AD300402BB0848A000AC034 /* Task1Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3003F2BB0848A000AC034 /* Task1Optional.swift */; };
+		0AD300422BB08708000AC034 /* Task2Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD300412BB08708000AC034 /* Task2Optional.swift */; };
 		0AD4F0212BAD7BC400D3BA34 /* Task4v2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0202BAD7BC400D3BA34 /* Task4v2Day4.swift */; };
-		0AD4F0232BADCBC600D3BA34 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */; };
 		0AD4F0262BAE263400D3BA34 /* Task1Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0252BAE263400D3BA34 /* Task1Day5.swift */; };
 		0AD4F02A2BAE28A300D3BA34 /* Task2Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F0292BAE28A300D3BA34 /* Task2Day5.swift */; };
 		0AD4F02C2BAF30E800D3BA34 /* Task3Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4F02B2BAF30E800D3BA34 /* Task3Day5.swift */; };
@@ -69,8 +70,9 @@
 		0A7FD5F42BAD6D0C00482504 /* Task2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Day4.swift; sourceTree = "<group>"; };
 		0A7FD5F62BAD706300482504 /* Task3Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Day4.swift; sourceTree = "<group>"; };
 		0A7FD5F82BAD73DF00482504 /* Task4Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4Day4.swift; sourceTree = "<group>"; };
+		0AD3003F2BB0848A000AC034 /* Task1Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Optional.swift; sourceTree = "<group>"; };
+		0AD300412BB08708000AC034 /* Task2Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Optional.swift; sourceTree = "<group>"; };
 		0AD4F0202BAD7BC400D3BA34 /* Task4v2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4v2Day4.swift; sourceTree = "<group>"; };
-		0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		0AD4F0252BAE263400D3BA34 /* Task1Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Day5.swift; sourceTree = "<group>"; };
 		0AD4F0292BAE28A300D3BA34 /* Task2Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2Day5.swift; sourceTree = "<group>"; };
 		0AD4F02B2BAF30E800D3BA34 /* Task3Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3Day5.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		0A7FD5DE2BAC495100482504 /* Day3 */ = {
 			isa = PBXGroup;
 			children = (
+				0AD3003E2BB08468000AC034 /* Optional */,
 				0A7FD5DF2BAC496600482504 /* Task1V1.swift */,
 				0A7FD5E32BAC4BC000482504 /* Task1V2.swift */,
 				0A7FD5E52BAC5C5600482504 /* Task2.swift */,
@@ -144,7 +147,6 @@
 				0A7FD5EB2BAC6CA900482504 /* Task5.swift */,
 				0A7FD5ED2BAC718600482504 /* Task6.swift */,
 				0A7FD5EF2BACAAEC00482504 /* Task7.swift */,
-				0AD4F0222BADCBC600D3BA34 /* TestViewController.swift */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -180,6 +182,15 @@
 				0AD4F0202BAD7BC400D3BA34 /* Task4v2Day4.swift */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		0AD3003E2BB08468000AC034 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				0AD3003F2BB0848A000AC034 /* Task1Optional.swift */,
+				0AD300412BB08708000AC034 /* Task2Optional.swift */,
+			);
+			path = Optional;
 			sourceTree = "<group>";
 		};
 		0AD4F0242BAE261E00D3BA34 /* Day5 */ = {
@@ -271,7 +282,6 @@
 				0A7FD5B62BAB4BFA00482504 /* Day2-Task3.swift in Sources */,
 				0AD4F0262BAE263400D3BA34 /* Task1Day5.swift in Sources */,
 				0A7FD5B52BAB4BFA00482504 /* Day1-Task2.swift in Sources */,
-				0AD4F0232BADCBC600D3BA34 /* TestViewController.swift in Sources */,
 				0A7FD5B72BAB4BFA00482504 /* Day2-Task1.swift in Sources */,
 				0A7FD5EC2BAC6CA900482504 /* Task5.swift in Sources */,
 				0A7FD5E62BAC5C5600482504 /* Task2.swift in Sources */,
@@ -288,9 +298,11 @@
 				0AD4F0342BAF5CFA00D3BA34 /* Task6Day5.swift in Sources */,
 				0A7FD5BA2BAB4BFA00482504 /* Day2-Task4.swift in Sources */,
 				0A7FD5E42BAC4BC000482504 /* Task1V2.swift in Sources */,
+				0AD300402BB0848A000AC034 /* Task1Optional.swift in Sources */,
 				0A7FD5EA2BAC6BB800482504 /* Task4.swift in Sources */,
 				0A7FD5E82BAC617400482504 /* Task3.swift in Sources */,
 				0AD4F0362BAF616900D3BA34 /* Task7Day5.swift in Sources */,
+				0AD300422BB08708000AC034 /* Task2Optional.swift in Sources */,
 				0AD4F02A2BAE28A300D3BA34 /* Task2Day5.swift in Sources */,
 				0A7FD5AC2BAB4BCD00482504 /* SceneDelegate.swift in Sources */,
 				0A7FD5F52BAD6D0C00482504 /* Task2Day4.swift in Sources */,
