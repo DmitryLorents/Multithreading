@@ -54,3 +54,4 @@ class Task2Optional: UIViewController {
         }
     }
 }
+// Проблема в одновременнгом обращении к lazy переменной. Устранил с помощью NSLock
